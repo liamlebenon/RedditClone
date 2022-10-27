@@ -1,0 +1,12 @@
+.post-list {
+    position: relative;
+    top: 6rem;
+    z-index: 0;
+}
+
+.spinner {
+    left: 47%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+}

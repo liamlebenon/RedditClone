@@ -1,0 +1,24 @@
+.card {
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 40%;
+    padding: 0 10px 15px 10px;
+}
+
+.card h3 {
+  font-size: medium
+}
+
+.post-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: x-small;
+  height: 1rem;
+}
+
+.post-body {
+  font-size: small
+}
