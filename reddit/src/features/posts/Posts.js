@@ -23,7 +23,6 @@ export const Posts = () => {
         )
     } else {
         const posts = data.data.children
-        console.log(posts)
         return (
         <div className='post-list'>
             {posts.map((post) => {

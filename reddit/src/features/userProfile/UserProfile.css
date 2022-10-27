@@ -1,3 +1,13 @@
+.user-profile {
+    margin-top: 150px;
+}
+
+.post-list {
+    position: relative;
+    top: 6rem;
+    z-index: 0;
+}
+
 .card {
     margin: 10px auto;
     background-color: #fff;
@@ -8,17 +18,7 @@
     padding: 0 10px 15px 10px;
 }
 
-.card h3 {
-  font-size: medium
-}
-
-.post-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-size: x-small;
-  height: 1rem;
-}
-
-.post-body {
-  font-size: small
+.user-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

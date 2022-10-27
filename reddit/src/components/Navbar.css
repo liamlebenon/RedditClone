@@ -1,10 +1,16 @@
 .navbar {
-    color: red;
-    border-bottom: 2px solid black;
+    color: rgb(182, 0, 0);
     background-color: white;
     position:absolute;
+    font-size: 1rem;
     top: 0;
     width: 100%;
     z-index: 1;
     height: 15%;
+}
+
+h1 {
+    display: grid;
+    justify-content: left;
+    margin-left: 2rem;
 }
