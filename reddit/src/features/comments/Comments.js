@@ -28,7 +28,7 @@ export const Comments = () => {
         console.log(comments)
         return (
             <div className='comment-list'>
-                {comments.map((comment) => {
+                {comments.slice(0, 29).map((comment) => {
                     return (
                         <div className='comment'>
                             <Comment 
