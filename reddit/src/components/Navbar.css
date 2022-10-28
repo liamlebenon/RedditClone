@@ -14,3 +14,7 @@ h1 {
     justify-content: left;
     margin-left: 2rem;
 }
+
+.navbar a {
+    color: rgb(163, 0, 0);
+}

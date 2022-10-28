@@ -6,11 +6,11 @@ export const Comment = (comment) => {
     const dateCreated = new Date(data.date * 1000).toLocaleDateString('en-UK');
     return (
         <div className='card'>
-            <p>Comment by u/<Link to={`../users/${data.user}`}>{data.user}</Link></p>
-            <h3>{data.body}</h3>
+            <h3>Comment by u/<Link to={`../users/${data.user}`}>{data.user}</Link></h3>
+            <p>{data.body}</p>
             <div className='post-details'>
-                <p>{data.ups} likes</p>
-                <p>{dateCreated}</p> 
+                <h3>{data.ups} likes</h3>
+                <h3>{dateCreated}</h3> 
             </div>
         </div>
     )
