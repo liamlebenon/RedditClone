@@ -1,0 +1,30 @@
+.card {
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 40%;
+    padding: 0 10px 25px 10px;
+}
+
+.card h3 {
+  font-size: medium
+}
+
+.comment-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: x-small;
+  height: 1rem;
+}
+
+.comment-body {
+  font-size: small
+}
+
+.post-details {
+    font-size: small;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

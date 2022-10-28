@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Posts />} />
           <Route exact path='/users/:username' element={<UserProfile />} />
-          <Route exact path='/comments/:permalink' element={<Comments />} />
+          <Route exact path='/comments/r/:subreddit/comments/:author/:permalink' element={<Comments />} />
         </Routes>
       </div>
     </Router>

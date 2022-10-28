@@ -26,7 +26,7 @@ export const userProfileSlice = createSlice({
         });
         builder.addCase(fetchUserProfile.fulfilled, (state, action) => {
             state.isLoadingUserProfile = false;
-            state.failedToLoadUserProfile = false;
+            state.failedToLoadUserProfile = false; 
             state.userProfile = action.payload;
         });
         builder.addCase(fetchUserProfile.rejected, (state) => {
